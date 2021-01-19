@@ -1,5 +1,5 @@
 # holbertonschool-web_front_end
-## Topics 📖
+## Topics to work on: 📖
 
 - Advanced HTML / CSS
 - Developer Tools
