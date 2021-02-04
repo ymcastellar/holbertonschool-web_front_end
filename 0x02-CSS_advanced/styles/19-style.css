@@ -112,18 +112,14 @@ a:active {
     text-align: var(--section-footer-align);
 }
 
-.footer {
-    padding: var(--footer-padding);
-}
-
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
 }
 
-.row ul {
+ul.row {
     margin: 0;
-    padding: none;
+    padding: 0;
     list-style: none;
 }
 
@@ -137,6 +133,10 @@ h1, h2, h3, h4, h5, h6 {
     width: 50%;
     float: left;
     padding: 0.5rem;
+}
+
+.footer {
+    padding: var(--footer-padding);
 }
 
 .footer-copyright {
