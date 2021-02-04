@@ -11,11 +11,11 @@ html {
 }
 
 body {
-    color: var(--color-black);
+    color: var(--text-black);
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
-    line-height: var(--line-height-base);
+    min-height: var(--line-height-base);
 }
 
 .navbar-menu {
@@ -67,7 +67,7 @@ a:active {
 .button  {
     display: var(--button-display);
     padding: var(--button-padding);
-    border-style: var(--button-border);
+    border: var(--button-border);
     font-size: var(--button-font-size);
     color: var(--button-color);
     text-decoration: var(--button-text-decoration);
