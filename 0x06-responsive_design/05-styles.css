@@ -384,11 +384,12 @@ main img {
 
 @media screen and (max-width: 767px) {
   :root {
-    --section-padding: 2rem 0 0;
+    --section-padding     : 5rem 1.5rem;
+    --section-body-padding: 2rem 0 0;
   }
 
   ul.row,
-  row {
+  .row {
     flex-direction: column;
     margin        : 0;
   }
@@ -401,7 +402,6 @@ main img {
   .col-1-2 {
     width: 100%;
   }
-
 }
 
 ul.row {
